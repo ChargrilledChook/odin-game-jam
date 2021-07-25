@@ -60,8 +60,11 @@
   border: 3px solid black;
   box-shadow: 5px 5px var(--black);
   background-color: var(--white);
+  cursor: pointer;
 }
 
-.button-container button:hover {
+.button-container button:active {
   background-color: #858181;
+  transform: translate(5px, 5px);
+  box-shadow: none;
 }
