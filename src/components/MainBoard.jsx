@@ -16,9 +16,11 @@ function MainBoard() {
       </div>
 
       <div className="board-input">
-        <input type="text" />
-        <button>Pass</button>
-        <button>Enter</button>
+        <input className="main-input" type="text" />
+        <div className="button-container">
+          <button>Pass</button>
+          <button>Enter</button>
+        </div>
       </div>
     </main>
   );

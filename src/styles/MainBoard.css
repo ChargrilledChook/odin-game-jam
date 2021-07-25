@@ -1,7 +1,42 @@
 .main-board {
-  background-color: plum;
-  font-size: 4.2rem;
+  background-color: rgb(196, 169, 196);
+  font-size: 3rem;
+  display: grid;
+  place-items: center;
+  min-height: 60rem;
 }
 
 .board-header {
+  display: flex;
+  gap: 4rem;
+}
+
+.header-cell {
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 5px 5px rgb(48, 48, 48);
+}
+
+.board-input {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.main-input {
+  padding: 0.8rem;
+  min-width: 30rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button-container button {
+  font-size: 2rem;
 }
