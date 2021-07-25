@@ -47,7 +47,7 @@ function MainBoard() {
       <div className="board-input">
         <input className="main-input" type="text" onChange={handleChange} />
         <div className="button-container">
-          <button>Pass</button>
+          <button onClick={() => playRound()}>Pass</button>
           <button onClick={() => playRound()}>Enter</button>
         </div>
       </div>
