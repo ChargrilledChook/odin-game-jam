@@ -6,6 +6,7 @@ import wordList from "../words.js";
 function MainBoard() {
   const [words, setWords] = useState(wordList.split("\n"));
   const [word, setWord] = useState(_.sample(words));
+  // const [jumble, setJumble] = _.shuffle(word.split("")).join(" ").toUpperCase();
   const [answer, setAnswer] = useState("");
   const [score, setScore] = useState(0);
 
@@ -25,6 +26,7 @@ function MainBoard() {
     if (checkAnswer()) {
       setScore(score + 1);
     }
+    setWord(_.sample(words));
   };
 
   return (
