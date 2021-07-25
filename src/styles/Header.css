@@ -1,4 +1,4 @@
 .site-header {
-  background-color: peachpuff;
+  background-color: var(--mainCol);
   padding: 1.2rem;
 }

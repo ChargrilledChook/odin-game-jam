@@ -1,4 +1,5 @@
 .site-footer {
-  background-color: rgb(245, 92, 65);
+  background-color: var(--mainCol);
   padding: 1.2rem;
+  text-align: center;
 }
