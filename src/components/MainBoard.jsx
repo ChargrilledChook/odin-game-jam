@@ -5,6 +5,7 @@ import wordList from "../words.js";
 import Jumble from "./Jumble";
 import BoardInput from "./BoardInput";
 import BoardHeader from "./BoardHeader";
+import GameOver from "./GameOver";
 
 function MainBoard() {
   const [words, setWords] = useState(wordList.split("\n"));
@@ -30,10 +31,16 @@ function MainBoard() {
     setAnswer("");
   };
 
+  const checkGameOver = () => {
+    if (words.length < 1) return <GameOver score={score} />;
+
+    return <Jumble word={word} />;
+  };
+
   return (
     <main className="main-board">
       <BoardHeader score={score} />
-      <Jumble word={word} />
+      {checkGameOver()}
       <BoardInput
         handleChange={handleChange}
         answer={answer}
