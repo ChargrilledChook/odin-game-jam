@@ -10,7 +10,9 @@ function MainBoard() {
   const [answer, setAnswer] = useState("");
   const [score, setScore] = useState(0);
 
+  // Find a better way to do this. May be easier with  multiple components
   const jumbledWord = _.shuffle(word.split("")).join(" ").toUpperCase();
+
   const handleChange = (e) => {
     return setAnswer(e.target.value);
   };
