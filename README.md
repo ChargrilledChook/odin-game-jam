@@ -2,6 +2,10 @@
 
 Yeah lad
 
+[View Live](https://github.com/ChargrilledChook/odin-game-jam/tree/main)
+
+Note current version is an alpha and very unpolished / unfinished. Deployment is largely for testing and feedback.
+
 [Project Board / Kanban](https://github.com/ChargrilledChook/odin-game-jam/projects/2)
 
 ### Design Sheet
