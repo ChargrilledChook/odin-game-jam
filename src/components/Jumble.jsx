@@ -1,5 +1,6 @@
 import { shuffle } from "lodash";
 import { useEffect, useState } from "react";
+import "../styles/Jumble.css";
 
 function Jumble({ word }) {
   const [jumble, setJumble] = useState(
