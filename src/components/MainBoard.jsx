@@ -3,6 +3,8 @@ import "../styles/MainBoard.css";
 import _ from "lodash";
 import wordList from "../words.js";
 import Jumble from "./Jumble";
+import BoardInput from "./BoardInput";
+import BoardHeader from "./BoardHeader";
 
 function MainBoard() {
   const [words, setWords] = useState(wordList.split("\n"));
@@ -30,26 +32,13 @@ function MainBoard() {
 
   return (
     <main className="main-board">
-      <div className="board-header">
-        <div className="header-cell">Score: {score}</div>
-        <div className="header-cell">Hint</div>
-        <div className="header-cell">Grade: 5</div>
-      </div>
-
+      <BoardHeader score={score} />
       <Jumble word={word} />
-
-      <form className="board-input">
-        <input
-          className="main-input"
-          type="text"
-          onChange={handleChange}
-          value={answer}
-        />
-        <div className="button-container">
-          <button onClick={(e) => playRound(e)}>Pass</button>
-          <button onClick={(e) => playRound(e)}>Enter</button>
-        </div>
-      </form>
+      <BoardInput
+        handleChange={handleChange}
+        answer={answer}
+        playRound={playRound}
+      />
     </main>
   );
 }
