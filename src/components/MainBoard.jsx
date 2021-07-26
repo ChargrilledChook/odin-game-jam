@@ -16,7 +16,7 @@ function MainBoard() {
 
   const playRound = (e) => {
     e.preventDefault();
-    if (word === answer) {
+    if (word === answer.toLowerCase()) {
       setScore(score + 1);
     }
     // Keep an eye out if this allows a word to repeat a single time
