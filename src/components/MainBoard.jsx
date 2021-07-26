@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "../styles/MainBoard.css";
 import _ from "lodash";
 import wordList from "../words.js";
@@ -51,3 +51,12 @@ function MainBoard() {
 }
 
 export default MainBoard;
+
+// <React.Fragment>
+// <Jumble word={word} />
+// <BoardInput
+//   handleChange={handleChange}
+//   answer={answer}
+//   playRound={playRound}
+// />
+// </React.Fragment>
