@@ -28,6 +28,9 @@ function MainBoard() {
     }
     // Keep an eye out if this allows a word to repeat a single time
     setWords(words.filter((entry) => entry !== word));
+    if (words.length < 1)
+      return setWord(`Round over! You scored ${score} points!`);
+
     setWord(_.sample(words));
     setAnswer("");
   };
