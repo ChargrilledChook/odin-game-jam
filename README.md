@@ -2,7 +2,7 @@
 
 Yeah lad
 
-[View Live](https://github.com/ChargrilledChook/odin-game-jam/tree/main)
+[View Live](https://chargrilledchook.github.io/odin-game-jam/)
 
 Note current version is an alpha and very unpolished / unfinished. Deployment is largely for testing and feedback.
 
