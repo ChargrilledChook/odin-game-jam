@@ -29,6 +29,7 @@ function MainBoard() {
     // Keep an eye out if this allows a word to repeat a single time
     setWords(words.filter((entry) => entry !== word));
     setWord(_.sample(words));
+    setAnswer("");
   };
 
   return (
@@ -45,7 +46,12 @@ function MainBoard() {
       </div>
 
       <div className="board-input">
-        <input className="main-input" type="text" onChange={handleChange} />
+        <input
+          className="main-input"
+          type="text"
+          onChange={handleChange}
+          value={answer}
+        />
         <div className="button-container">
           <button onClick={() => playRound()}>Pass</button>
           <button onClick={() => playRound()}>Enter</button>
