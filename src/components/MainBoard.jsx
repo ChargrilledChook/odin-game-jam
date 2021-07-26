@@ -22,7 +22,8 @@ function MainBoard() {
     return word === answer;
   };
 
-  const playRound = () => {
+  const playRound = (e) => {
+    e.preventDefault();
     if (checkAnswer()) {
       setScore(score + 1);
     }
@@ -48,7 +49,7 @@ function MainBoard() {
         <p className="hint-text">Text that is jumbled</p>
       </div>
 
-      <div className="board-input">
+      <form className="board-input">
         <input
           className="main-input"
           type="text"
@@ -56,10 +57,10 @@ function MainBoard() {
           value={answer}
         />
         <div className="button-container">
-          <button onClick={() => playRound()}>Pass</button>
-          <button onClick={() => playRound()}>Enter</button>
+          <button onClick={(e) => playRound(e)}>Pass</button>
+          <button onClick={(e) => playRound(e)}>Enter</button>
         </div>
-      </div>
+      </form>
     </main>
   );
 }
