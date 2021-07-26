@@ -50,7 +50,7 @@ context
 heroic
 superior
 convince
-hesitat
+hesitate
 tension
 culture
 hilarious
