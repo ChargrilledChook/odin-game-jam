@@ -2,7 +2,7 @@ import { shuffle } from "lodash";
 import { useEffect, useState } from "react";
 import "../styles/Jumble.css";
 
-function Jumble({ word }) {
+function Jumble({ word, definition }) {
   const [jumble, setJumble] = useState(
     shuffle(word.split("")).join(" ").toUpperCase()
   );
@@ -15,7 +15,7 @@ function Jumble({ word }) {
   return (
     <div className="center-text">
       <h2 className="jumble">{jumble}</h2>
-      <p className="hint-text">Text that is jumbled</p>
+      <p className="hint-text">{definition}</p>
     </div>
   );
 }

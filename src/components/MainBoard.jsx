@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import "../styles/MainBoard.css";
 import _ from "lodash";
-import wordList from "../words.js";
+import { wordList } from "../words/newWords.js";
 import Jumble from "./Jumble";
 import BoardInput from "./BoardInput";
 import BoardHeader from "./BoardHeader";
 import GameOver from "./GameOver";
 
 function MainBoard() {
-  const [words, setWords] = useState(wordList.split("\n"));
+  const [words, setWords] = useState(wordList);
   const [word, setWord] = useState(_.sample(words));
   const [answer, setAnswer] = useState("");
   const [score, setScore] = useState(0);
@@ -19,14 +19,12 @@ function MainBoard() {
 
   const playRound = (e) => {
     e.preventDefault();
-    if (word === answer.toLowerCase()) {
+    if (word.word.toLowerCase() === answer.toLowerCase()) {
       setScore(score + 1);
     }
     // Keep an eye out if this allows a word to repeat a single time
-    setWords(words.filter((entry) => entry !== word));
-    if (words.length < 1)
-      return setWord(`Round over! You scored ${score} points!`);
-
+    // Looks like it probably is
+    setWords(words.filter((entry) => entry.word !== word.word));
     setWord(_.sample(words));
     setAnswer("");
   };
@@ -34,7 +32,7 @@ function MainBoard() {
   const checkGameOver = () => {
     if (words.length < 1) return <GameOver score={score} />;
 
-    return <Jumble word={word} />;
+    return <Jumble word={word.word} definition={word.definition} />;
   };
 
   return (
