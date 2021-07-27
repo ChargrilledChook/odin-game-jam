@@ -3,3 +3,8 @@
   padding: 1.2rem;
   text-align: center;
 }
+
+
+.site-footer > a{
+  text-decoration: none;
+}
