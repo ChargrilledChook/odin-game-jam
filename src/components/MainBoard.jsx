@@ -33,8 +33,10 @@ function MainBoard() {
     setAnswer("");
   };
 
+  const reset = () => setWords(wordList);
+
   const checkGameOver = () => {
-    if (words.length < 1) return <GameOver score={score} />;
+    if (words.length < 1) return <GameOver score={score} reset={reset} />;
 
     return <Jumble word={word.word} definition={word.definition} />;
   };

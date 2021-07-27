@@ -1,11 +1,13 @@
 import "../styles/GameOver.css";
 import "../styles/generalStyles.css";
 
-function GameOver({ score }) {
+function GameOver({ score, reset }) {
   return (
     <div className="game-over">
       <h2>Round over! You scored {score} points!</h2>
-      <button className="button replay">Play Again</button>
+      <button onClick={reset} className="button replay">
+        Play Again
+      </button>
     </div>
   );
 }
