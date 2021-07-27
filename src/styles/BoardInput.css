@@ -11,7 +11,7 @@
   border-radius: 10px;
   outline: none;
   text-align: center;
-  border: 3px solid black;
+  border: 3px solid rgb(61, 61, 61);
   box-shadow: 5px 5px var(--black);
 }
 
@@ -26,14 +26,34 @@
   border-radius: 1rem;
   border: none;
   padding: 1rem 2.4rem;
-  border: 3px solid black;
+  border: 3px solid rgb(61, 61, 61);
   box-shadow: 5px 5px var(--black);
-  background-color: var(--white);
+  color: var(--white);
   cursor: pointer;
 }
 
-.button-container button:active {
-  background-color: #858181;
+.pass {
+  background-color: #f1687f;
+}
+
+.enter {
+  background-color: #51dd64;
+}
+
+/* .button-container button:active {
+  background-color: #8b8b8b;
+  transform: translate(5px, 5px);
+  box-shadow: none;
+} */
+
+.pass:active {
+  background-color: #d4475e;
+  transform: translate(5px, 5px);
+  box-shadow: none;
+}
+
+.enter:active {
+  background-color: #43bd53;
   transform: translate(5px, 5px);
   box-shadow: none;
 }

@@ -10,8 +10,8 @@ function BoardInput({ handleChange, answer, playRound }) {
         value={answer}
       />
       <div className="button-container">
-        <button onClick={(e) => playRound(e)}>Pass</button>
-        <button onClick={(e) => playRound(e)}>Enter</button>
+        <button className="pass" onClick={(e) => playRound(e)}>Pass</button>
+        <button className="enter" onClick={(e) => playRound(e)}>Enter</button>
       </div>
     </form>
   );
