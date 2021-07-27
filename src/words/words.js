@@ -1,3 +1,5 @@
+// This list is now outdated and won't work with the current format
+
 export const wordList = `abolish
 escalate
 influence
