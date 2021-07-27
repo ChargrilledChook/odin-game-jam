@@ -19,6 +19,10 @@ function MainBoard() {
 
   const playRound = (e) => {
     e.preventDefault();
+
+    // Probably a better way to do this - don't render the button, or disable it?
+    if (words.length < 1) return;
+
     if (word.word.toLowerCase() === answer.toLowerCase()) {
       setScore(score + 1);
     }
