@@ -42,20 +42,14 @@
   background-color: #39be6c;
 }
 
-/* .button-container button:active {
-  background-color: #8b8b8b;
-  transform: translate(5px, 5px);
-  box-shadow: none;
-} */
-
 .pass:active {
-  background-color: #d4475e;
+  background-color: #f8889b;
   transform: translate(5px, 5px);
   box-shadow: none;
 }
 
 .enter:active {
-  background-color: #43bd53;
+  background-color: #43e080;
   transform: translate(5px, 5px);
   box-shadow: none;
 }
