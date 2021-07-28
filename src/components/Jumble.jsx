@@ -7,6 +7,7 @@ function Jumble({ word, definition }) {
     shuffle(word.split("")).join(" ").toUpperCase()
   );
 
+  // Could be the cause of the "flash" bug
   useEffect(
     () => setJumble(shuffle(word.split("")).join(" ").toUpperCase()),
     [word]
