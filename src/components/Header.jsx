@@ -4,9 +4,9 @@ import "../styles/Header.css";
 function Header() {
   return (
     <header className="site-header">
-          <a href ="#"><h3>Word List</h3></a>
-          <h3>Logo Here</h3>
-          <a href ="#"><h3>Difficulty</h3></a>
+          <a href ="#"><p>Word List</p></a>
+          <p>Logo Here</p>
+          <a href ="#"><p>Difficulty</p></a>
     </header>
   );
 }
