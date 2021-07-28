@@ -35,21 +35,21 @@
 }
 
 .pass {
-  background-color: #f1687f;
+  background-color: var(--red);
 }
 
 .enter {
-  background-color: #39be6c;
+  background-color: var(--green);
 }
 
 .pass:active {
-  background-color: #f8889b;
+  background-color: var(--redSec);
   transform: translate(5px, 5px);
   box-shadow: none;
 }
 
 .enter:active {
-  background-color: #43e080;
+  background-color: var(--greenSec);
   transform: translate(5px, 5px);
   box-shadow: none;
 }
