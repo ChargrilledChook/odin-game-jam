@@ -6,6 +6,7 @@ import Jumble from "./Jumble";
 import BoardInput from "./BoardInput";
 import BoardHeader from "./BoardHeader";
 import GameOver from "./GameOver";
+import Levels from "./Levels";
 
 function MainBoard() {
   const [words, setWords] = useState(wordList);
@@ -43,13 +44,14 @@ function MainBoard() {
 
   return (
     <main className="main-board">
-      <BoardHeader score={score} />
+      {/* <BoardHeader score={score} />
       {checkGameOver()}
       <BoardInput
         handleChange={handleChange}
         answer={answer}
         playRound={playRound}
-      />
+      /> */}
+      <Levels />
     </main>
   );
 }
