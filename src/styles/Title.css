@@ -1,0 +1,25 @@
+.title-screen {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.title-screen h1 {
+  font-size: 12rem;
+  color: var(--white);
+  text-shadow: 5px 5px var(--black);
+}
+
+.title-screen p {
+  font-size: 4rem;
+}
+
+.title-screen button {
+  width: auto;
+  padding: 2rem 8rem;
+}
+.title-screen .link {
+  text-decoration: none;
+  color: inherit;
+}

@@ -7,7 +7,7 @@ function Layout() {
   return (
     <div className="Layout">
       <Header />
-      <Title/>
+      <MainBoard/>
       <Footer />
     </div>
   );
