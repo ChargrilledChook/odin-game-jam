@@ -1,6 +1,6 @@
 .title-screen {
   display: grid;
-  place-items: center;
+  place-content: center;
   min-height: 100vh;
   text-align: center;
 }
