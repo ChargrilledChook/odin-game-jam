@@ -4,7 +4,7 @@ import "../styles/Footer.css";
 function Footer() {
   return (
     <footer className="site-footer">
-      Made by two mad lads for the Odin Game Jam
+      Made by <a href="#">Dylan</a> and <a href="#">William</a>
     </footer>
   );
 }

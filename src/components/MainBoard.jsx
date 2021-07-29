@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/MainBoard.css";
 import _ from "lodash";
 import { wordList } from "../words/newWords.js";
@@ -29,16 +29,21 @@ function MainBoard() {
     // Keep an eye out if this allows a word to repeat a single time
     // Looks like it probably is
     setWords(words.filter((entry) => entry.word !== word.word));
-    setWord(_.sample(words));
+
     setAnswer("");
   };
 
+  useEffect(() => setWord(_.sample(words)), [words]);
+
   const reset = () => setWords(wordList);
 
+  // Render the gameover screen if word hasn't been selected yet, this stops the little flash as the word list resets
   const checkGameOver = () => {
-    if (words.length < 1) return <GameOver score={score} reset={reset} />;
-
-    return <Jumble word={word.word} definition={word.definition} />;
+    if (word && words.length > 0) {
+      return <Jumble word={word.word} definition={word.definition} />;
+    } else {
+      return <GameOver score={score} reset={reset} />;
+    }
   };
 
   return (

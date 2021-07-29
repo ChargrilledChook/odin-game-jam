@@ -11,8 +11,9 @@
   border-radius: 10px;
   outline: none;
   text-align: center;
-  border: 3px solid black;
+  border: 3px solid var(--black);
   box-shadow: 5px 5px var(--black);
+  background-color: var(--white);
 }
 
 .button-container {
@@ -23,17 +24,32 @@
 .button-container button {
   width: 45%;
   font-size: 2rem;
+  font-family: 'Shadows Into Light Two', cursive;
   border-radius: 1rem;
   border: none;
   padding: 1rem 2.4rem;
-  border: 3px solid black;
+  border: 3px solid var(--black);
   box-shadow: 5px 5px var(--black);
-  background-color: var(--white);
+  color: var(--white);
   cursor: pointer;
 }
 
-.button-container button:active {
-  background-color: #858181;
+.pass {
+  background-color: var(--red);
+}
+
+.enter {
+  background-color: var(--green);
+}
+
+.pass:active {
+  background-color: var(--redSec);
+  transform: translate(5px, 5px);
+  box-shadow: none;
+}
+
+.enter:active {
+  background-color: var(--greenSec);
   transform: translate(5px, 5px);
   box-shadow: none;
 }
