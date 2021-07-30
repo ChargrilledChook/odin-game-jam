@@ -5,13 +5,9 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header className="site-header">
-      <a href="#">
-        <p>Word List</p>
-      </a>
+      <Link to="/vocab">Word List</Link>
       <Link to="/">Logo Here</Link>
-      <a href="#">
-        <p>Difficulty</p>
-      </a>
+      <Link to="/levels">Select Difficulty</Link>
     </header>
   );
 }
