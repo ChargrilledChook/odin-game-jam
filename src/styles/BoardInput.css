@@ -32,6 +32,7 @@
   box-shadow: 5px 5px var(--black);
   color: var(--white);
   cursor: pointer;
+  font-family: 'Viga', sans-serif;
 }
 
 .pass {

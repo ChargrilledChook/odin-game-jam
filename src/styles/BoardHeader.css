@@ -10,3 +10,22 @@
   background-color: #edf5e8;
   box-shadow: 5px 5px var(--black);
 }
+
+.hint {
+  font-size: 2rem;
+  font-family: 'Shadows Into Light Two', cursive;
+  border-radius: 1rem;
+  border: none;
+  padding: 1rem 2.4rem;
+  background-color: #4186A7;
+  border: 3px solid rgb(61, 61, 61);
+  box-shadow: 5px 5px var(--black);
+  color: var(--white);
+  cursor: pointer;;
+}
+
+.hint:active {
+  background-color: #51a3c9;
+  transform: translate(5px, 5px);
+  box-shadow: none;
+}
