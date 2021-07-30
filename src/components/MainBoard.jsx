@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../styles/MainBoard.css";
 import _ from "lodash";
-import { wordList } from "../words/newWords.js";
+import { wordList } from "../words/words.js";
 import Jumble from "./Jumble";
 import BoardInput from "./BoardInput";
 import BoardHeader from "./BoardHeader";
