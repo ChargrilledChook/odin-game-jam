@@ -1,0 +1,26 @@
+.page-title {
+  font-size: 9rem;
+  color: var(--white);
+  text-shadow: 5px 5px var(--black);
+  text-align: center;
+}
+
+.page-blurb {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.vocab-container {
+  padding: 2rem 4rem;
+  display: grid;
+  place-content: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.vocab-word {
+  font-size: 4.2rem;
+}
+
+.vocab-def {
+  font-size: 3rem;
+}
