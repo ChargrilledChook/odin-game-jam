@@ -2,9 +2,13 @@
   background-color: var(--mainCol);
   padding: 1.2rem;
   text-align: center;
+  font-family: 'Viga', sans-serif;
+  color: var(--white);
+  text-shadow: 2px 2px var(--black);
 }
 
 
 .site-footer > a{
   text-decoration: none;
+  color: var(--white);
 }

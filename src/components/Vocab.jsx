@@ -2,15 +2,20 @@
 // This would avoid importing twice / give it a single source of truth
 import { wordList } from "../words/words.js";
 import "../styles/Vocab.css";
+import { Link } from "react-router-dom";
 
 function Vocab(props) {
   return (
     <main>
       <h1 className="page-title">Word List</h1>
-      <p className="page-blurb">
-        Short blurb about all the words in the game being here for study.
-        Probably need some nav links here too - can manually type for now
-      </p>
+      <p className="page-blurb">Refresh your knowledge before playing the game!</p>
+
+      <Link to="/play">
+        {" "}
+        <button className="button">Go Back</button>
+      </Link>
+
+      
       <div className="vocab-container">
         {wordList
           .sort((a, b) => a.word.localeCompare(b.word))
