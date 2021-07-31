@@ -48,7 +48,7 @@ function MainBoard() {
 
   return (
     <main className="main-board">
-      <BoardHeader score={score} />
+      <BoardHeader score={score} grade={word.grade} />
       {checkGameOver()}
       <BoardInput
         handleChange={handleChange}
