@@ -1,10 +1,13 @@
 .level-select {
+  min-height: 100vh;
+  place-items: center;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
 
 .button {
   padding: 2rem;
   text-align: center;
+  width: 20rem;
 }

@@ -11,7 +11,7 @@ const Routes = () => {
       <Switch>
         <Route path="/vocab" component={Vocab} />
         <Route path="/levels" component={Levels} />
-        <Route path="/play" component={Layout} />
+        <Route path="/play/:level" component={Layout} />
         <Route path="/" component={Title} />
       </Switch>
     </BrowserRouter>

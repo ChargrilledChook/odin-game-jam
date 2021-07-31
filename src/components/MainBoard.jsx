@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useParams } from "react-router";
 import "../styles/MainBoard.css";
 import _ from "lodash";
 import { wordList } from "../words/words.js";
@@ -13,6 +14,9 @@ function MainBoard() {
   const [answer, setAnswer] = useState("");
   const [score, setScore] = useState(0);
 
+  let { id } = useParams();
+
+  console.log(id);
   const handleChange = (e) => {
     return setAnswer(e.target.value);
   };
