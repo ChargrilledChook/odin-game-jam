@@ -1,4 +1,6 @@
-import { wordList } from "../words/newWords";
+// This is also being imported into mainboard - should it be state in a higher component and passed down as a prop?
+// This would avoid importing twice / give it a single source of truth
+import { wordList } from "../words/words.js";
 import "../styles/Vocab.css";
 
 function Vocab(props) {

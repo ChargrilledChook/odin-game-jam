@@ -19,11 +19,13 @@
 }
 
 .vocab-word {
+  margin: 3.2rem 0 0 0;
   font-size: 4.2rem;
   color: var(--white);
   text-shadow: 3px 3px var(--black);
 }
 
 .vocab-def {
+  margin: 5px 0 0 0;
   font-size: 3rem;
 }
