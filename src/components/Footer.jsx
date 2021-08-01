@@ -4,7 +4,8 @@ import "../styles/Footer.css";
 function Footer() {
   return (
     <footer className="site-footer">
-      Made by <a href="#">Dylan</a> and <a href="#">William</a>
+      Made by <a href="https://github.com/ChargrilledChook">Dylan</a> and{" "}
+      <a href="https://github.com/thewilheim">William</a>
     </footer>
   );
 }
