@@ -12,6 +12,7 @@ function MainBoard() {
   const [word, setWord] = useState(_.sample(words));
   const [answer, setAnswer] = useState("");
   const [score, setScore] = useState(0);
+  const [hint, setHint] = useState(true);
 
   const handleChange = (e) => {
     return setAnswer(e.target.value);
@@ -37,10 +38,16 @@ function MainBoard() {
 
   const reset = () => setWords(wordList);
 
+  const toggleHint = () => {
+    return hint ? setHint(false) : setHint(true);
+  };
+
   // Render the gameover screen if word hasn't been selected yet, this stops the little flash as the word list resets
   const checkGameOver = () => {
     if (word && words.length > 0) {
-      return <Jumble word={word.word} definition={word.definition} />;
+      return (
+        <Jumble word={word.word} hint={hint} definition={word.definition} />
+      );
     } else {
       return <GameOver score={score} reset={reset} />;
     }
@@ -48,7 +55,7 @@ function MainBoard() {
 
   return (
     <main className="main-board">
-      <BoardHeader score={score} grade={word.grade} />
+      <BoardHeader score={score} grade={word.grade} toggleHint={toggleHint} />
       {checkGameOver()}
       <BoardInput
         handleChange={handleChange}
