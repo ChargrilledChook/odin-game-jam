@@ -1,11 +1,13 @@
 import "../styles/BoardHeader.css";
 
-function BoardHeader({ score }) {
+function BoardHeader({ score, grade, toggleHint }) {
   return (
     <div className="board-header">
       <div className="header-cell">Score: {score}</div>
-      <button className="hint">Hint</button>
-      <div className="header-cell">Grade: 5</div>
+      <button onClick={() => toggleHint()} className="hint">
+        Hint
+      </button>
+      <div className="header-cell">Grade: {grade}</div>
     </div>
   );
 }
