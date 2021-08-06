@@ -7,3 +7,18 @@
   font-size: 3.6rem;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .center-text > h2 {
+    font-size: 4.2rem;
+    text-align: center;
+  }
+  
+  .hint-text {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+
+}

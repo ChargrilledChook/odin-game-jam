@@ -37,18 +37,18 @@
 
   .board-header {
     display: flex;
-    gap: 1.5rem;
+    gap: 2.5rem;
   }
   
   .header-cell {
     min-width: 10rem;
     border-radius: 10px;
-    padding: 1.5rem 1rem;
+    padding: 1rem .5rem;
   }
   
   .hint {
     border-radius: 1rem;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1rem;
   }
 
 }

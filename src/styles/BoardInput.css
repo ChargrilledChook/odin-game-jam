@@ -53,3 +53,20 @@
   transform: translate(5px, 5px);
   box-shadow: none;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+  .board-input {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .main-input {
+    font-size: 2.5rem;
+    min-width: 20rem;
+  }
+  
+
+}

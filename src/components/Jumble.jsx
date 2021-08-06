@@ -14,7 +14,7 @@ function Jumble({ word, definition, hint }) {
   );
 
   const hintText = (hint) => {
-    if (hint) return <p>{definition}</p>;
+    if (hint) return <p className="hint-text">{definition}</p>;
   };
 
   return (

@@ -12,3 +12,10 @@
   text-decoration: none;
   color: var(--white);
 }
+
+
+.site-footer > a:hover {
+  transform: translate(2px, 2px);
+  text-shadow: none;
+  color: var(--black);
+}

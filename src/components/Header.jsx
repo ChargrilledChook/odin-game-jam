@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header className="site-header">
-      <Link to="/vocab">Word List</Link>
-      <Link to="/">Logo Here</Link>
-      <Link to="/levels">Select Difficulty</Link>
+      <Link to="/vocab" className="hoverEffect">Word List</Link>
+      <Link to="/" className="hoverEffect">Logo Here</Link>
+      <Link to="/levels" className="hoverEffect">Difficulty</Link>
     </header>
   );
 }
