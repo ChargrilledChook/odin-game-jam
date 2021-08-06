@@ -5,10 +5,11 @@
   --white: #edf5e8;
   --mainCol: #c4a9c4;
   --red: #f1687f;
-  --redSec: #f8889b;
   --green: #39be6c;
-  --greenSec: #43e080;
+  --blue: #4186A7;
   /* --secCol: ; */
+  --greenSec: #43e080;
+  --redSec: #f8889b;
 }
 
 *,

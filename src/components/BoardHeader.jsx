@@ -4,7 +4,7 @@ function BoardHeader({ score, grade, toggleHint }) {
   return (
     <div className="board-header">
       <div className="header-cell">Score: {score}</div>
-      <button onClick={() => toggleHint()} className="hint">
+      <button onClick={() => toggleHint()} className="button">
         Hint
       </button>
       <div className="header-cell">Grade: {grade}</div>
