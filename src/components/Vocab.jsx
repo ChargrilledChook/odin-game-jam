@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function Vocab(props) {
   return (
-    <main>
+    <main className="vocab-text">
       <h1 className="page-title">Word List</h1>
       <p className="page-blurb">Refresh your knowledge before playing the game!</p>
 

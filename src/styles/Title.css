@@ -23,3 +23,23 @@
   text-decoration: none;
   color: inherit;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+  .title-screen h1 {
+    font-size: 10rem;
+    margin-bottom: 5rem;
+  }
+  
+  .title-screen p {
+    font-size: 3rem;
+  }
+  
+  .title-screen button {
+    padding: 1rem 6rem;
+    background-color: var(--green);
+  }
+  
+
+}
