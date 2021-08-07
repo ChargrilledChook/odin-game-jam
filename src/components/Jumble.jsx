@@ -1,5 +1,6 @@
 import { shuffle } from "lodash";
 import { useEffect, useState } from "react";
+import "../styles/generalStyles.css";
 import "../styles/Jumble.css";
 
 function Jumble({ word, definition, hint }) {
@@ -15,6 +16,8 @@ function Jumble({ word, definition, hint }) {
 
   const hintText = (hint) => {
     if (hint) return <p className="hint-text">{definition}</p>;
+
+    return <p className="hint-text hidden">{definition}</p>;
   };
 
   return (
