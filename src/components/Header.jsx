@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="site-header">
       <Link to="/vocab" className="hoverEffect">Word List</Link>
-      <Link to="/" className="hoverEffect">Logo Here</Link>
+      <Link to="/" className="hoverEffect">Word Jamble</Link>
       <Link to="/levels" className="hoverEffect">Difficulty</Link>
     </header>
   );
