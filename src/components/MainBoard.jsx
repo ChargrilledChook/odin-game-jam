@@ -12,7 +12,7 @@ function MainBoard() {
   const [word, setWord] = useState(_.sample(words));
   const [answer, setAnswer] = useState("");
   const [score, setScore] = useState(0);
-  const [hint, setHint] = useState(true);
+  const [hint, setHint] = useState(false);
 
   const handleChange = (e) => {
     return setAnswer(e.target.value);
