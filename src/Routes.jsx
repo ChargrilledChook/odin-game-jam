@@ -7,7 +7,7 @@ import Levels from "./components/Levels";
 
 const Routes = () => {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Switch>
         <Route path="/vocab" component={Vocab} />
         <Route path="/levels" component={Levels} />
