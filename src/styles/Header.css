@@ -2,12 +2,12 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: var(--mainCol);
+  background-color: var(--secCol);
+  box-shadow: inset 0px 0px 0px 3px rgba(71, 71, 71, 0.261);
   padding: 1.2rem;
   color: var(--white);
-  font-family: 'Viga', sans-serif;
+  font-family: "Viga", sans-serif;
 }
-
 
 .site-header > p {
   text-shadow: 2px 2px var(--black);
@@ -20,7 +20,6 @@
   font-weight: 600;
   text-shadow: 2px 2px var(--black);
 }
-
 
 .site-header > a:hover {
   transform: translate(2px, 2px);
