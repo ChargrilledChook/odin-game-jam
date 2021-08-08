@@ -9,9 +9,9 @@ const Routes = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="word-jamble/vocab" component={Vocab} />
-        <Route path="word-jamble/levels" component={Levels} />
-        <Route path="word-jamble/play" component={Layout} />
+        <Route path="/word-jamble/vocab" component={Vocab} />
+        <Route path="/word-jamble/levels" component={Levels} />
+        <Route path="/word-jamble/play" component={Layout} />
         <Route path="/word-jamble" component={Title} />
       </Switch>
     </BrowserRouter>
