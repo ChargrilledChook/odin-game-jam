@@ -8,7 +8,7 @@ import BoardHeader from "./BoardHeader";
 import GameOver from "./GameOver";
 
 function MainBoard() {
-  const [words, setWords] = useState(wordList.slice(0, 20));
+  const [words, setWords] = useState(_.shuffle(wordList).slice(0, 20));
   const [word, setWord] = useState(_.sample(words));
   const [answer, setAnswer] = useState("");
   const [score, setScore] = useState(0);
@@ -39,8 +39,9 @@ function MainBoard() {
   useEffect(() => setWord(_.sample(words)), [words]);
 
   const reset = () => {
+    setScore(0);
     setRound(1);
-    setWords(wordList.slice(0, 20));
+    setWords(_.shuffle(wordList).slice(0, 20));
   };
 
   const toggleHint = () => {
