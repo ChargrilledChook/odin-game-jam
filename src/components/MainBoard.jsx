@@ -8,11 +8,12 @@ import BoardHeader from "./BoardHeader";
 import GameOver from "./GameOver";
 
 function MainBoard() {
-  const [words, setWords] = useState(wordList);
+  const [words, setWords] = useState(wordList.slice(0, 20));
   const [word, setWord] = useState(_.sample(words));
   const [answer, setAnswer] = useState("");
   const [score, setScore] = useState(0);
   const [hint, setHint] = useState(false);
+  const [round, setRound] = useState(1);
 
   const handleChange = (e) => {
     return setAnswer(e.target.value);
@@ -29,6 +30,7 @@ function MainBoard() {
     }
     // Keep an eye out if this allows a word to repeat a single time
     // Looks like it probably is
+    setRound(round + 1);
     setWords(words.filter((entry) => entry.word !== word.word));
 
     setAnswer("");
@@ -36,7 +38,10 @@ function MainBoard() {
 
   useEffect(() => setWord(_.sample(words)), [words]);
 
-  const reset = () => setWords(wordList);
+  const reset = () => {
+    setRound(1);
+    setWords(wordList.slice(0, 20));
+  };
 
   const toggleHint = () => {
     return hint ? setHint(false) : setHint(true);
@@ -55,7 +60,7 @@ function MainBoard() {
 
   return (
     <main className="main-board">
-      <BoardHeader score={score} grade={word.grade} toggleHint={toggleHint} />
+      <BoardHeader score={score} round={round} toggleHint={toggleHint} />
       {checkGameOver()}
       <BoardInput
         handleChange={handleChange}
@@ -67,12 +72,3 @@ function MainBoard() {
 }
 
 export default MainBoard;
-
-// <React.Fragment>
-// <Jumble word={word} />
-// <BoardInput
-//   handleChange={handleChange}
-//   answer={answer}
-//   playRound={playRound}
-// />
-// </React.Fragment>
