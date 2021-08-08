@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/odin-game-jam/static/css/main.53e9f23e.chunk.css",
-    "main.js": "/odin-game-jam/static/js/main.cce474a5.chunk.js",
-    "main.js.map": "/odin-game-jam/static/js/main.cce474a5.chunk.js.map",
-    "runtime-main.js": "/odin-game-jam/static/js/runtime-main.63829c12.js",
-    "runtime-main.js.map": "/odin-game-jam/static/js/runtime-main.63829c12.js.map",
-    "static/js/2.8923f5d1.chunk.js": "/odin-game-jam/static/js/2.8923f5d1.chunk.js",
-    "static/js/2.8923f5d1.chunk.js.map": "/odin-game-jam/static/js/2.8923f5d1.chunk.js.map",
-    "index.html": "/odin-game-jam/index.html",
-    "static/css/main.53e9f23e.chunk.css.map": "/odin-game-jam/static/css/main.53e9f23e.chunk.css.map",
-    "static/js/2.8923f5d1.chunk.js.LICENSE.txt": "/odin-game-jam/static/js/2.8923f5d1.chunk.js.LICENSE.txt",
-    "static/media/word-jamble.cd7ee845.png": "/odin-game-jam/static/media/word-jamble.cd7ee845.png"
+    "main.css": "/word-jamble/static/css/main.138d4040.chunk.css",
+    "main.js": "/word-jamble/static/js/main.cce474a5.chunk.js",
+    "main.js.map": "/word-jamble/static/js/main.cce474a5.chunk.js.map",
+    "runtime-main.js": "/word-jamble/static/js/runtime-main.e74068c5.js",
+    "runtime-main.js.map": "/word-jamble/static/js/runtime-main.e74068c5.js.map",
+    "static/js/2.8923f5d1.chunk.js": "/word-jamble/static/js/2.8923f5d1.chunk.js",
+    "static/js/2.8923f5d1.chunk.js.map": "/word-jamble/static/js/2.8923f5d1.chunk.js.map",
+    "index.html": "/word-jamble/index.html",
+    "static/css/main.138d4040.chunk.css.map": "/word-jamble/static/css/main.138d4040.chunk.css.map",
+    "static/js/2.8923f5d1.chunk.js.LICENSE.txt": "/word-jamble/static/js/2.8923f5d1.chunk.js.LICENSE.txt",
+    "static/media/word-jamble.cd7ee845.png": "/word-jamble/static/media/word-jamble.cd7ee845.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.63829c12.js",
+    "static/js/runtime-main.e74068c5.js",
     "static/js/2.8923f5d1.chunk.js",
-    "static/css/main.53e9f23e.chunk.css",
+    "static/css/main.138d4040.chunk.css",
     "static/js/main.cce474a5.chunk.js"
   ]
 }
