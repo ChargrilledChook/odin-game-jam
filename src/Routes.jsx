@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route, HashRouter } from "react-router-dom";
+import { Switch, Route, HashRouter } from "react-router-dom";
 import Layout from "./Layout";
 import Title from "./components/Title";
 import Vocab from "./components/Vocab";
