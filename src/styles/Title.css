@@ -1,6 +1,8 @@
 .title-screen {
-  display: grid;
-  place-content: center;
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   min-height: 100vh;
   text-align: center;
 }
@@ -9,6 +11,7 @@
   font-size: 12rem;
   color: var(--white);
   text-shadow: 5px 5px var(--black);
+  margin: 0;
 }
 
 .title-screen p {
@@ -24,22 +27,26 @@
   color: inherit;
 }
 
+.logo {
+  height: 340px;
+}
 
 @media only screen and (max-width: 600px) {
-
   .title-screen h1 {
     font-size: 10rem;
     margin-bottom: 5rem;
   }
-  
+
   .title-screen p {
     font-size: 3rem;
   }
-  
+
   .title-screen button {
     padding: 1rem 6rem;
     background-color: var(--green);
   }
-  
 
+  .logo {
+    height: 240px;
+  }
 }
