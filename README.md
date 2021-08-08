@@ -2,6 +2,8 @@
 
 WIP
 
+An entry into the 2021 [Odin Game Jam.](https://itch.io/jam/top-jam-1)
+
 [View Live](https://chargrilledchook.github.io/odin-game-jam/)
 
 Note current version is an alpha and very unpolished / unfinished. Deployment is largely for testing and feedback.
