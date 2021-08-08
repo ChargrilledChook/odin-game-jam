@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/word-jamble/static/css/main.ea5b3858.chunk.css",
-    "main.js": "/word-jamble/static/js/main.966a6c87.chunk.js",
-    "main.js.map": "/word-jamble/static/js/main.966a6c87.chunk.js.map",
+    "main.css": "/word-jamble/static/css/main.492b98d9.chunk.css",
+    "main.js": "/word-jamble/static/js/main.f91986da.chunk.js",
+    "main.js.map": "/word-jamble/static/js/main.f91986da.chunk.js.map",
     "runtime-main.js": "/word-jamble/static/js/runtime-main.e74068c5.js",
     "runtime-main.js.map": "/word-jamble/static/js/runtime-main.e74068c5.js.map",
-    "static/js/2.5dc7d252.chunk.js": "/word-jamble/static/js/2.5dc7d252.chunk.js",
-    "static/js/2.5dc7d252.chunk.js.map": "/word-jamble/static/js/2.5dc7d252.chunk.js.map",
+    "static/js/2.e41f936d.chunk.js": "/word-jamble/static/js/2.e41f936d.chunk.js",
+    "static/js/2.e41f936d.chunk.js.map": "/word-jamble/static/js/2.e41f936d.chunk.js.map",
     "index.html": "/word-jamble/index.html",
-    "static/css/main.ea5b3858.chunk.css.map": "/word-jamble/static/css/main.ea5b3858.chunk.css.map",
-    "static/js/2.5dc7d252.chunk.js.LICENSE.txt": "/word-jamble/static/js/2.5dc7d252.chunk.js.LICENSE.txt",
+    "static/css/main.492b98d9.chunk.css.map": "/word-jamble/static/css/main.492b98d9.chunk.css.map",
+    "static/js/2.e41f936d.chunk.js.LICENSE.txt": "/word-jamble/static/js/2.e41f936d.chunk.js.LICENSE.txt",
     "static/media/word-jamble.cd7ee845.png": "/word-jamble/static/media/word-jamble.cd7ee845.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e74068c5.js",
-    "static/js/2.5dc7d252.chunk.js",
-    "static/css/main.ea5b3858.chunk.css",
-    "static/js/main.966a6c87.chunk.js"
+    "static/js/2.e41f936d.chunk.js",
+    "static/css/main.492b98d9.chunk.css",
+    "static/js/main.f91986da.chunk.js"
   ]
 }
