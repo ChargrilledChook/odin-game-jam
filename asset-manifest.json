@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/word-jamble/static/css/main.42573edb.chunk.css",
-    "main.js": "/word-jamble/static/js/main.7365e790.chunk.js",
-    "main.js.map": "/word-jamble/static/js/main.7365e790.chunk.js.map",
+    "main.js": "/word-jamble/static/js/main.966a6c87.chunk.js",
+    "main.js.map": "/word-jamble/static/js/main.966a6c87.chunk.js.map",
     "runtime-main.js": "/word-jamble/static/js/runtime-main.e74068c5.js",
     "runtime-main.js.map": "/word-jamble/static/js/runtime-main.e74068c5.js.map",
     "static/js/2.5dc7d252.chunk.js": "/word-jamble/static/js/2.5dc7d252.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.e74068c5.js",
     "static/js/2.5dc7d252.chunk.js",
     "static/css/main.42573edb.chunk.css",
-    "static/js/main.7365e790.chunk.js"
+    "static/js/main.966a6c87.chunk.js"
   ]
 }
