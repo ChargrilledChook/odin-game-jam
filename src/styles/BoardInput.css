@@ -70,3 +70,13 @@
   
 
 }
+
+
+@media only screen and (max-width: 355px) {
+  
+  .main-input {
+    font-size: 2.2rem;
+    min-width: 20rem;
+  }
+
+}
