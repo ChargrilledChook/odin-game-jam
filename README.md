@@ -1,6 +1,6 @@
 # Odin Game Jam - Word Jamble
 
-Yeah lad
+WIP
 
 [View Live](https://chargrilledchook.github.io/odin-game-jam/)
 
