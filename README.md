@@ -1,10 +1,8 @@
 # Odin Game Jam - Word Jamble
 
-Yeah lad
+WIP - This doc is currently being re-written.
 
 [View Live](https://chargrilledchook.github.io/odin-game-jam/)
-
-Note current version is an alpha and very unpolished / unfinished. Deployment is largely for testing and feedback.
 
 [Project Board / Kanban](https://github.com/ChargrilledChook/odin-game-jam/projects/2)
 
