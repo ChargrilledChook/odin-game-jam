@@ -12,14 +12,24 @@ Our Entry to the [2021 Odin Edutainment Game Jam](https://itch.io/jam/top-jam-1)
 
 ## About
 
-WIP - This doc is currently being re-written.
+Word Jamble is a simple web app about solving anagrams. It was created by a team of 3 in roughly 2 weeks for [The 2021 Odin Game Jam](https://itch.io/jam/top-jam-1) - a game competition with an edutainment theme - educational games that are fun to play.
 
 ## Features
 
-- ~150 words to solve / practice
+- Rougly 150 words to solve / practice
 - Handy word list with dictionary definitions
 - Toggle definitions on or off duing the round for a hint
 - Mobile responsive
+
+## How to Use
+
+Play a live demo [here](https://chargrilledchook.github.io/word-jamble).
+
+To run locally, you must have [Node.js](https://nodejs.org/en/) installed.
+
+Clone this repository, navigate to the folder and type `npm install` in your console.
+
+Once you have installed the dependencies with the above command, type `npm start` to host a build on your local server, then follow the prompts in your console.
 
 ## Our Team
 
